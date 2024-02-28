@@ -5,3 +5,5 @@ export function rekurzio(arr,sum=0){
 
 
 };
+let rekurzioegyszerubb=(arr,sum=0)=>
+    typeof head==='undefined'? sum : rekurzioegyszerubb(tail,sum+head);
